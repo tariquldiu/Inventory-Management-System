@@ -1,0 +1,197 @@
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\ApplicationInsights.config
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\csc.exe
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\vbc.exe
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\VBCSCompiler.exe
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\InventoryApplication.dll.config
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\InventoryApplication.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\InventoryApplication.pdb
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\EntityFramework.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\EntityFramework.SqlServer.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.DependencyCollector.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Web.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.WindowsServer.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.ApplicationInsights.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.Web.Infrastructure.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Helpers.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Mvc.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Razor.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Deployment.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Razor.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\EntityFramework.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\EntityFramework.SqlServer.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.DependencyCollector.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Web.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.AI.WindowsServer.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.ApplicationInsights.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Razor.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Deployment.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Razor.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Helpers.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\bin\System.Web.Mvc.xml
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\obj\Debug\InventoryApplication.dll
+E:\Code\MVC NEW\InventoryApplication\InventoryApplication\obj\Debug\InventoryApplication.pdb
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\ApplicationInsights.config
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\csc.exe
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\vbc.exe
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\InventoryApplication.dll.config
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\InventoryApplication.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\InventoryApplication.pdb
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\EntityFramework.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Web.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Helpers.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Mvc.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Razor.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\EntityFramework.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Web.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Razor.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Helpers.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\bin\System.Web.Mvc.xml
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\obj\Debug\InventoryApplication.dll
+C:\Users\Tariqul\Desktop\New folder\InventoryApplication\InventoryApplication\obj\Debug\InventoryApplication.pdb
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\ApplicationInsights.config
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\csc.exe
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\vbc.exe
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\VBCSCompiler.exe
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\InventoryApplication.dll.config
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\InventoryApplication.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\InventoryApplication.pdb
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\EntityFramework.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\EntityFramework.SqlServer.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.DependencyCollector.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Web.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.WindowsServer.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.ApplicationInsights.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.Web.Infrastructure.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Helpers.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Mvc.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Razor.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Deployment.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Razor.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\EntityFramework.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\EntityFramework.SqlServer.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.DependencyCollector.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Web.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.WindowsServer.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.ApplicationInsights.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Razor.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Deployment.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Razor.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Helpers.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\bin\System.Web.Mvc.xml
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\obj\Debug\InventoryApplication.dll
+E:\Code\MVC NEW\Project\InventoryApplication\InventoryApplication\obj\Debug\InventoryApplication.pdb
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\ApplicationInsights.config
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\csc.exe
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\vbc.exe
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\VBCSCompiler.exe
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\InventoryApplication.dll.config
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\InventoryApplication.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\InventoryApplication.pdb
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\EntityFramework.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\EntityFramework.SqlServer.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.DependencyCollector.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Web.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.WindowsServer.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.ApplicationInsights.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.Web.Infrastructure.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Helpers.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Mvc.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Razor.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Deployment.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Razor.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\EntityFramework.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\EntityFramework.SqlServer.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.DependencyCollector.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.Web.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.AI.WindowsServer.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.ApplicationInsights.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Razor.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Deployment.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Webpages.Razor.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Helpers.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\bin\System.Web.Mvc.xml
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\obj\Debug\InventoryApplication.csprojResolveAssemblyReference.cache
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\obj\Debug\InventoryApplication.dll
+E:\Programming\Development\Exm-486\Project\InventoryApplication\InventoryApplication\obj\Debug\InventoryApplication.pdb
