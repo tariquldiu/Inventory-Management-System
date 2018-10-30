@@ -1,0 +1,71 @@
+﻿@model IEnumerable<InventoryApplication.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Customers : @ViewBag.cs</h3>
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN BASIC PORTLET-->
+        <div class="widget green">
+            <div class="widget-title">
+                <h4><i class="icon-group"></i>Customer List</h4>
+                <span class="tools">
+                    <a href="javascript:;" class="icon-chevron-down"></a>
+                    <a href="@Url.Action("Create", "Customers")" class="icon-plus">Add New</a>
+                </span>
+            </div>
+            <div class="widget-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.CustomerName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Address)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.CellNo)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AddedBy)
+                            </th>
+                            <th>Action</th>
+                        </tr>
+
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CustomerName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Address)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CellNo)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.AddedBy)
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("Edit","Customers",new { id = item.CustomerId })" class="btn btn-primary btn-edit"><i class="icon-pencil"></i> </a> |
+                                    <a href="@Url.Action("Delete","Customers",new { id = item.CustomerId })" class="btn btn-danger btn-edit"><i class="icon-trash"></i></a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    }
+                </table>
+
+            </div>
+        </div>
+        <!-- END BASIC PORTLET-->
+    </div>
+</div>
+

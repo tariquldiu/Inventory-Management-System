@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h4>Summary</h4>
+<div class="metro-nav">
+    <div class="metro-nav-block nav-block-grey">
+        @if (User.Identity.IsAuthenticated)
+        {
+                <a data-original-title="" href="@Url.Action("Signout", "Users")">
+                    <i class="icon-key"></i>
+                    <div class="info"></div>
+                    <div class="status">Sign Out</div>
+                </a>
+        }
+        else
+        {
+            <a data-original-title="" href="@Url.Action("Login", "Users")">
+                <i class="fa fa-user-plus"></i>
+                <div class="info"></div>
+                <div class="status">Sign In</div>
+            </a>
+        }
+    </div>
+    <div class="metro-nav-block nav-block-orange">
+        <a data-original-title="" href="#">
+            <i class="icon-user"></i>
+            <div class="info">@ViewBag.us</div>
+            <div class="status">User</div>
+        </a>
+    </div>
+   
+    <div class="metro-nav-block nav-block-yellow double">
+        <a data-original-title="" href="#">
+            <i class="icon-tasks"></i>
+            <div class="info">@ViewBag.st</div>
+            <div class="status">Stock</div>
+        </a>
+    </div>
+    <div class="metro-nav-block nav-block-purple double">
+        <a data-original-title="" href="#">
+            <i class="icon-hand-right"></i>
+            <div class="info">@ViewBag.sp</div>
+            <div class="status">Supplier</div>
+        </a>
+    </div>
+    <div class="metro-nav-block nav-olive">
+        <a data-original-title="" href="#">
+            <i class="icon-group"></i>
+            <div class="info">@ViewBag.em</div>
+            <div class="status">Employee</div>
+        </a>
+    </div>
+    <div class="metro-nav-block nav-block-green">
+        <a data-original-title="" href="#">
+            <i class="icon-female"></i>
+            <div class="info">@ViewBag.cs</div>
+            <div class="status">Customer</div>
+        </a>
+    </div>
+    <div class="metro-nav-block nav-block-red double">
+        <a data-original-title="" href="#">
+            <i class="icon-shopping-cart"></i>
+            <div class="info">@ViewBag.or</div>
+            <div class="status">Order</div>
+        </a>
+    </div>
+    <div class="metro-nav-block nav-block-blue double">
+        <a data-original-title="" href="#">
+            <i class="icon-usd"></i>
+            <div class="info">@ViewBag.pr</div>
+            <div class="status">Purchase</div>
+        </a>
+    </div>
+    
+</div>

@@ -1,0 +1,105 @@
+﻿@model IEnumerable<InventoryApplication.Models.Employee>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Employees : @ViewBag.em </h3>
+
+
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN BASIC PORTLET-->
+        <div class="widget green">
+            <div class="widget-title">
+                <h4><i class="icon-group"></i>Employee List</h4>
+                <span class="tools">
+                    <a href="javascript:;" class="icon-chevron-down"></a>
+                    <a href="@Url.Action("Create", "Employees")" class="icon-plus">Add New</a>
+                </span>
+            </div>
+            <div class="widget-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EmployeeName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Email)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.CellNo)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Address)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Salary)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AddedBy)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.IsActive)
+                            </th>
+                          @if (User.IsInRole("admin"))
+                          {
+                            <th>Action</th>
+                          }
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.EmployeeName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Email)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CellNo)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Address)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Salary)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.AddedBy)
+                                </td>
+                               @if(item.IsActive=="yes")
+                               {
+                                   <td class="label label-success">
+                                       Enabled
+                                   </td>
+                               }
+                               else
+                               {
+                                <td class="label label-important">
+                                    Disabled
+                                </td>
+                               }
+                             @if (User.IsInRole("admin"))
+                             {
+                                <td>
+                                  
+                                    <a href="@Url.Action("Edit","Employees",new { id = item.EmployeeId })" class="btn btn-primary btn-edit"><i class="icon-pencil"></i> </a> |
+                                    <a href="@Url.Action("Delete","Employees",new { id = item.EmployeeId })" class="btn btn-danger btn-edit"><i class="icon-trash"></i></a>
+                                </td>
+                             }
+                            </tr>
+
+                        </tbody>
+                    }
+                </table>
+
+            </div>
+        </div>
+        <!-- END BASIC PORTLET-->
+    </div>
+</div>

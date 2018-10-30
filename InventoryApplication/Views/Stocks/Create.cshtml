@@ -1,0 +1,102 @@
+﻿@model InventoryApplication.Models.Stock
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<style>
+    .modal-body {
+        position: relative;
+        max-height: 100%;
+        padding: 0px;
+        overflow-y: auto;
+    }
+
+    .widget {
+        margin-bottom: 0;
+    }
+</style>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <!-- BEGIN VALIDATION STATES-->
+                        <div class="widget green">
+                            <div class="widget-title">
+                                <h4><i class="icon-info-sign"></i>Stock Now</h4>
+                                <div class="tools">
+                                    <a href="javascript:;" class="collapse"></a>
+                                    <a href="#portlet-config" data-toggle="modal" class="config"></a>
+                                    <a href="javascript:;" class="reload"></a>
+                                    <a href="javascript:;" class="remove"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body form">
+                                <!-- BEGIN FORM-->
+                                @using (Html.BeginForm("Create","Stocks",FormMethod.Post, new {enctype="multipart/form-data" }))
+                                {
+                                    @Html.AntiForgeryToken()
+
+                                    <div class="form-horizontal">
+                                        
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.ProductName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            <div class="col-md-10">
+                                                @Html.EditorFor(model => model.ProductName, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.ValidationMessageFor(model => model.ProductName, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.Quantity, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            <div class="col-md-10">
+                                                @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.ImageUrl, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            <div class="col-md-10">
+                                                <input type="file" id="ImageFile" name="ImageFile" required class="form-control" />
+                                            </div>
+                                        </div>
+
+                                        <input type="hidden" id="AddedBy" name="AddedBy" value="@User.Identity.Name" class="form-control" />
+
+                                        <input type="hidden" id="InActive" name="InActive" value="yes" class="form-control" />
+
+                                        <div class="form-actions">
+                                            <button class="btn btn-success" type="submit" style="margin-left:-20px;">Save</button>
+                                            <a href="@Url.Action("Index","Stocks")" class="btn btn-danger" style="margin-left:230px;">Cancel</a>
+                                        </div>
+                                       
+
+                                    </div>
+                                }
+
+
+                                <!-- END FORM-->
+                            </div>
+                        </div>
+                        <!-- END VALIDATION STATES-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script>
+    $(window).load(function () {
+        $('#myModal').modal({ backdrop: 'static', keyboard: false, show: true });
+    });
+</script>

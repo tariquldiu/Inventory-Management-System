@@ -1,0 +1,85 @@
+﻿@model IEnumerable<InventoryApplication.Models.Purchase>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h3>Purchases : @ViewBag.ps</h3>
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN BASIC PORTLET-->
+        <div class="widget green">
+            <div class="widget-title">
+                <h4><i class="icon-group"></i>Purchase List</h4>
+                <span class="tools">
+                    <a href="javascript:;" class="icon-chevron-down"></a>
+                    <a href="@Url.Action("Create","Purchases")" class="icon-plus">Add New</a>
+                </span>
+            </div>
+            <div class="widget-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.PurchaseDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Quantity)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.UnitPrice)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Total)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AddedBy)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Stock.ProductName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Supplier.SuppliersName)
+                            </th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                @foreach (var item in Model)
+                {
+                    <tbody>
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PurchaseDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Quantity)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UnitPrice)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Total)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AddedBy)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Stock.ProductName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Supplier.SuppliersName)
+                            </td>
+                            <td>
+                                <a href="@Url.Action("Edit", "Purchases", new { id =item.Id})" class="btn btn-primary btn-edit"><i class="icon-pencil"></i> </a> |
+                                <a href="@Url.Action("Delete", "Purchases", new { id = item.Id })" class="btn btn-danger btn-edit"><i class="icon-trash"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                  }
+                </table>
+            </div>
+        </div>
+        <!-- END BASIC PORTLET-->
+    </div>
+   
+</div>

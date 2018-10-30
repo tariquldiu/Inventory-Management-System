@@ -1,0 +1,74 @@
+﻿@model IEnumerable<InventoryApplication.Models.Stock>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Stocks : @ViewBag.st</h3>
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN BASIC PORTLET-->
+        <div class="widget green">
+            <div class="widget-title">
+                <h4><i class="icon-group"></i>Stock List</h4>
+                <span class="tools">
+                    <a href="javascript:;" class="icon-chevron-down"></a>
+                    <a href="@Url.Action("Create","Stocks")" class="icon-plus">Add New</a>
+                </span>
+            </div>
+            <div class="widget-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ProductName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Quantity)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ImageUrl)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AddedBy)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.InActive)
+                            </th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ProductName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Quantity)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ImageUrl)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.AddedBy)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.InActive)
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("Edit", "Stocks", new { id =item.ProductID})" class="btn btn-primary btn-edit"><i class="icon-pencil"></i> </a> |
+                                    <a href="@Url.Action("Delete", "Stocks", new { id = item.ProductID})" class="btn btn-danger btn-edit"><i class="icon-trash"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    }
+                </table>
+            </div>
+        </div>
+        <!-- END BASIC PORTLET-->
+    </div>
+
+</div>

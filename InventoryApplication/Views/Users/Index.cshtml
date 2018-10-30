@@ -1,0 +1,92 @@
+﻿@model IEnumerable<InventoryApplication.Models.User>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<h3>Users : @ViewBag.us </h3>
+
+
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN BASIC PORTLET-->
+        <div class="widget green">
+            <div class="widget-title">
+                <h4><i class="icon-group"></i>User List</h4>
+                <span class="tools">
+                    <a href="javascript:;" class="icon-chevron-down"></a>
+                    <a href="@Url.Action("Create", "Users")" class="icon-plus">Add New</a>
+                </span>
+            </div>
+            <div class="widget-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.UserName)
+                            </th>
+
+                            <th>
+                                @Html.DisplayNameFor(model => model.RoleName)
+                            </th>
+                            
+                            <th>
+                                @Html.DisplayNameFor(model => model.Employee.EmployeeName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.IsActive)
+                            </th>
+                            @if (User.IsInRole("admin"))
+                            {
+                                <th>Action</th>
+                            }
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.UserName)
+                                </td>
+
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.RoleName)
+                                </td>
+                                
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Employee.EmployeeName)
+                                </td>
+                                @if (item.Employee.IsActive == "yes")
+                                {
+                                    <td class="label label-success">
+                                        Enabled
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td class="label label-important">
+                                        Disabled
+                                    </td>
+                                }
+                                @if (User.IsInRole("admin"))
+                                {
+                                    <td>
+                                        <a href="@Url.Action("Edit","Users",new { id = item.UserId })" class="btn btn-primary btn-edit"><i class="icon-pencil"></i> </a> |
+                                        <a href="@Url.Action("Delete","Users",new { id = item.UserId })" class="btn btn-danger btn-edit"><i class="icon-trash"></i></a>
+                                    </td>
+                                }
+                            </tr>
+
+                        </tbody>
+                    }
+                </table>
+
+            </div>
+        </div>
+        <!-- END BASIC PORTLET-->
+    </div>
+</div>

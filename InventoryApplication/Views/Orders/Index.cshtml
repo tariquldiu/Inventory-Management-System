@@ -1,0 +1,83 @@
+﻿@model IEnumerable<InventoryApplication.Models.Order>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Total Orders : @ViewBag.or</h3>
+
+<div class="row-fluid">
+    <div class="span12">
+        <!-- BEGIN BASIC PORTLET-->
+        <div class="widget green">
+            <div class="widget-title">
+                <h4><i class="icon-group"></i>Order List</h4>
+                <span class="tools">
+                    <a href="javascript:;" class="icon-chevron-down"></a>
+                    <a href="@Url.Action("Create", "Orders")" class="icon-plus">Add New</a>
+                </span>
+            </div>
+            <div class="widget-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.OrderDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.AddedBy)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Quantity)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.UnitPrice)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Customer.CustomerName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Stock.ProductName)
+                            </th>
+                            <th>Action</th>
+                        </tr>
+
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.OrderDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.AddedBy)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Quantity)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.UnitPrice)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Customer.CustomerName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Stock.ProductName)
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("Edit","Orders",new { id = item.OrderId })" class="btn btn-primary btn-edit"><i class="icon-pencil"></i> </a> |
+                                    <a href="@Url.Action("Delete","Orders",new { id = item.OrderId })" class="btn btn-danger btn-edit"><i class="icon-trash"></i></a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    }
+                </table>
+
+            </div>
+        </div>
+        <!-- END BASIC PORTLET-->
+    </div>
+</div>
